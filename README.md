@@ -3,3 +3,4 @@ I am a Mathematician and Machine Learning Practitioner. I enjoy the way differen
 
 # Projects
 * [Natural Language Processing](https://github.com/thedatadj/natural-language-processing)
+* [Machine Learning](https://github.com/thedatadj/machine-learning)
