@@ -17,15 +17,28 @@
       size(1080, 600); 
       frameRate(30);
       // Paste code from Khan Academy here:
-      fill(255, 255, 0);
-      ellipse(200, 200, 200, 200);
-      noFill();
-      stroke(0, 0, 0);
-      strokeWeight(2);
-      arc(200, 200, 150, 100, 0, PI);
-      fill(0, 0, 0);
-      ellipse(250, 200, 10, 10);
-      ellipse(153, 200, 10, 10);
+      background(255, 203, 158); // wooden table
+ellipse(200, 200, 350, 350); // plate
+ellipse(200, 200, 300, 300); 
+// Bread
+noStroke();
+fill(237, 188, 155);
+ellipse(203, 147, 216, 138);
+rect(123, 189, 159, 107);
+noStroke();
+fill(251, 235, 198);
+ellipse(200, 150, 201, 125);
+rect(126, 192, 150, 100);
+
+strokeWeight(5);
+stroke(107, 72, 52);
+arc(132, 135, 35, 35, 0, 90);
+arc(242, 135, 35, 35, 90, 180);
+arc(159, 175, 25, 10, 0, 180);
+arc(159, 175, 25, 5, 0, 180);
+arc(220, 175, 25, 10, 0, 180);
+arc(220, 175, 25, 5, 0, 180);
+line(165, 200, 217, 200);
     }};
 
   // Get the canvas that ProcessingJS will use
